@@ -2,11 +2,12 @@
   "name": "realtime-board-signaling",
   "version": "1.0.0",
   "description": "Signaling server for Realtime Board (y-webrtc)",
+  "type": "module",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "y-webrtc": "^10"
+    "ws": "^8"
   }
 }
